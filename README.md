@@ -1,6 +1,6 @@
 # Amazfit Phone Remote
 
-Control your Android phone from an Amazfit watch (Active 2 Premium and other Zepp OS devices).
+Control your Android phone from an Amazfit watch (Active 2 and other Zepp OS devices).
 
 - Toggle GPS on/off from the wrist
 - Launch configured apps without touching the phone
