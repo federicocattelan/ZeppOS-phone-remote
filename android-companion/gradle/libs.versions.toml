@@ -1,0 +1,17 @@
+[versions]
+agp = "9.2.1"
+coreKtx = "1.16.0"
+appcompat = "1.7.1"
+material = "1.12.0"
+constraintlayout = "2.2.1"
+nanohttpd = "2.3.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+nanohttpd = { group = "org.nanohttpd", name = "nanohttpd", version.ref = "nanohttpd" }

@@ -1,0 +1,53 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 19837651,
+    "appName": "Phone Remote Dev",
+    "appType": "app",
+    "version": {
+      "code": 14,
+      "name": "1.4.6"
+    },
+    "icon": "icon.png",
+    "vender": "phone-remote",
+    "description": "Control phone GPS and launch apps from your watch"
+  },
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "4.0",
+      "target": "4.2",
+      "minVersion": "4.0"
+    }
+  },
+  "targets": {
+    "466x466-amazfit-active-2": {
+      "module": {
+        "page": {
+          "pages": ["page/index"]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        { "name": "Active2PremiumW", "deviceSource": 10092801 },
+        { "name": "Active2Premium", "deviceSource": 10092800 },
+        { "name": "Active2RoundW", "deviceSource": 8913153 },
+        { "name": "Active2Round", "deviceSource": 8913152 }
+      ],
+      "designWidth": 466
+    }
+  },
+  "i18n": {
+    "en-US": { "appName": "Phone Remote" },
+    "it-IT": { "appName": "Phone Remote" }
+  },
+  "defaultLanguage": "it-IT"
+}

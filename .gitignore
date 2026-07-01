@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+_samples/
+
+# Zepp build output
+dist/
+build/
+
+# Android
+android-companion/.gradle/
+android-companion/app/build/
+android-companion/local.properties
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store

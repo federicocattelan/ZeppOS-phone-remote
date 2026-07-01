@@ -1,0 +1,18 @@
+{
+  "name": "phone-remote-watch",
+  "version": "1.4.6",
+  "description": "Amazfit watch app to control Android phone",
+  "main": "app.js",
+  "scripts": {
+    "dev": "zeus dev -t \"Amazfit Active 2 NFC (Round)\"",
+    "build": "zeus build -t \"Amazfit Active 2 NFC (Round)\"",
+    "preview": "zeus preview -t \"Amazfit Active 2 NFC (Round)\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.38"
+  }
+}

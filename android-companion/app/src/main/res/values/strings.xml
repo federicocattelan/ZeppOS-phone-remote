@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Phone Remote</string>
+    <string name="app_title">Phone Remote Companion</string>
+    <string name="token_label">Auth token (copy into the watch app settings)</string>
+    <string name="port_label">Local server</string>
+    <string name="regenerate_token">Regenerate token</string>
+    <string name="restart_service">Restart server</string>
+    <string name="service_notification_title">Phone Remote active</string>
+    <string name="service_notification_text">Listening on 127.0.0.1:%1$d</string>
+    <string name="status_running">Server running. GPS: %1$s</string>
+    <string name="gps_on">ON</string>
+    <string name="gps_off">OFF</string>
+    <string name="gps_setup_title">GPS control setup</string>
+    <string name="gps_setup_body">To toggle GPS without touching the phone, grant this permission once via USB debugging:</string>
+    <string name="adb_grant_command">adb shell pm grant com.phoneremote.companion android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="watch_setup_title">Watch app setup</string>
+    <string name="watch_setup_body">Install the Zepp OS app, open its settings in the Zepp app, paste the auth token above, and configure your shortcuts.</string>
+    <string name="overlay_setup_title">Background launch permission</string>
+    <string name="overlay_setup_body">Required so the watch can open apps (e.g. Waze) even when this app is not on screen.</string>
+    <string name="overlay_status">Display over other apps: %1$s</string>
+    <string name="overlay_granted">granted</string>
+    <string name="overlay_missing">not granted</string>
+    <string name="overlay_grant_button">Grant permission</string>
+</resources>
